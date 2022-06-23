@@ -19,9 +19,9 @@ Usage: turbtools [-h] [-o] [-f datafile]
 
 Options
   -h, --help            show this help message and exit
-  -o, --outpath            Save email in an HTML file
-  -f, --datafile            datafile in .mat or .nc with path
-
+  -o, --outpath         Path to save output stats and plots
+  -f, --datafile        Path of datafile in .mat or .nc
+  
 ```
 
 ### Examples
