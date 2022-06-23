@@ -17,7 +17,6 @@ setuptools.setup(
     install_requires=['requests','scipy','numpy','h5py','matplotlib'],
     platforms=['any'],
     classifiers=[
-        "Programming Language :: Python ",
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
         "Operating System :: OS Independent",
