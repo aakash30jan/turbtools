@@ -6,7 +6,8 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name="turbtools",
     version="22.6a1",
-    description="Python Package for Statistical Analysis of Turbulence and other Complex Systems Data",
+    description="Python Package for Statistical Analysis of Turbulence Data",
+    author="Aakash Patil",
     license="GPL",
     long_description=long_description,
     long_description_content_type="text/markdown",
