@@ -10,24 +10,36 @@ $ pip install turbtools
 ```
 
 ### Source
-Alternatively, the latest `turbtools` package source tarball can be downloaded from [here](https://github.com/aakash30jan/turbtools/archive/v22.06a1.tar.gz) (18.9 kB). 
+Alternatively, the latest `turbtools` package source tarball can be downloaded from [here](https://github.com/aakash30jan/turbtools/archive/refs/heads/main.zip) (18.9 kB). 
 
 ## Usage
 
 ```console
-Usage: turbtools [-h] [-o] [-f datafile] 
+Usage: turbtools [-h] [-o] [-f datafile] FUNCTION_NAME
 
 Options
-  -h, --help            show this help message and exit
+  -h, --help            Show this help message and exit
   -o, --outpath         Path to save output stats and plots
   -f, --datafile        Path of datafile in .mat or .nc
+  FUNCTION_NAME         Name of the the function
   
 ```
 
 ### Examples
 Initialize the datafile to analyze
 ```console
-$ turbtools -f ./sampledata/Renner_8000_Hz.mat
+$ wget https://github.com/andre-fuchs-uni-oldenburg/OPEN_FPE_IFT/raw/master/Renner_8000_Hz.mat
+$ turbtools -f ./Renner_8000_Hz.mat
+```
+
+Describe stats and plot the raw signal
+```console
+$ turbtools plot_signal
+```
+
+Describe stats and plot the raw signal
+```console
+$ turbtools plot_signal
 ```
 
 Describe stats and plot the raw signal
