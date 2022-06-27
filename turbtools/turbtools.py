@@ -59,14 +59,7 @@ def load_dataset(datafile):
     data = data.squeeze()
     return data;
 
-def plot_signal(data, outpath):
-    print("Raw signal description: ", describe(data))
-    plt.clf()
-    plt.plot(np.arange(data.size), data)
-    plt.savefig(outpath+'plot_time_vs_data.png')
-    plt.show()
-    print('plotsaved to '+outpath+'plot_time_vs_data.png')
-    return
+from plotsignal import plot_signal
 
 def plot_stationarity(data, outpath):
     return 0;
