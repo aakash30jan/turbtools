@@ -61,7 +61,6 @@ def load_dataset(datafile):
     data = data.squeeze()
     return data;
 
-<<<<<<< HEAD
 def plot_signal(data, outpath):
     print("> Raw signal description: \n\t", describe(data))
     plt.clf()
@@ -77,10 +76,10 @@ def plot_signal(data, outpath):
 from scipy.interpolate import interp1d
 def fillmissing(data, method='linear'):
     """
-    method = has to be one of ‘linear’, ‘nearest’, ‘nearest-up’, ‘zero’, ‘slinear’, ‘quadratic’, ‘cubic’, ‘previous’, or ‘next’. 
-    ‘zero’, ‘slinear’, ‘quadratic’ and ‘cubic’ refer to a spline interpolation of zeroth, first, second or third order
-    ‘previous’ and ‘next’ simply return the previous or next value of the point 
-    ‘nearest-up’ and ‘nearest’ differ when interpolating half-integers in that ‘nearest-up’ rounds up and ‘nearest’ rounds down.
+    method = has to be one of 'linear', 'nearest', 'nearest-up', 'zero', 'slinear', 'quadratic', 'cubic', 'previous', or 'next'. 
+    'zero', 'slinear', 'quadratic' and 'cubic' refer to a spline interpolation of zeroth, first, second or third order
+    'previous' and 'next' simply return the previous or next value of the point 
+    'nearest-up' and 'nearest' differ when interpolating half-integers in that 'nearest-up' rounds up and 'nearest' rounds down.
 
     Example:
     ARR = np.arange(20.0)
