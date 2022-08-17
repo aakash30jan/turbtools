@@ -61,6 +61,7 @@ def load_dataset(datafile):
     data = data.squeeze()
     return data;
 
+<<<<<<< HEAD
 def plot_signal(data, outpath):
     print("> Raw signal description: \n\t", describe(data))
     plt.clf()
