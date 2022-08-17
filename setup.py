@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="turbtools",
-    version="22.6a2",
+    version="22.8a1",
     description="Python Package for Statistical Analysis of Turbulence Data",
     author="Lille Turbulence Program 2022",
     maintainer = "Aakash Patil",

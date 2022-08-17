@@ -47,6 +47,14 @@ Describe stats and plot the raw signal
 $ turbtools plot_signal
 ```
 
+## To Do List:
+init wrong 
+requirements exqct from sys
+Automate pushing
+
+
+
+ 
 ## Issues:
 Problems? Please raise an issue at [https://github.com/aakash30jan/turbtools/issues](https://github.com/aakash30jan/turbtools/issues).
 
