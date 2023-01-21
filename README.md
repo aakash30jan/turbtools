@@ -28,7 +28,7 @@ Options
 ### Examples
 Initialize the datafile to analyze
 ```console
-$ wget https://github.com/andre-fuchs-uni-oldenburg/OPEN_FPE_IFT/raw/master/Renner_8000_Hz.mat
+$ wget https://github.com/andre-fuchs-uni-oldenburg/OPEN_FPE_IFT/raw/master/sample_data/Renner_8000_Hz.mat
 $ turbtools -f ./Renner_8000_Hz.mat
 ```
 
